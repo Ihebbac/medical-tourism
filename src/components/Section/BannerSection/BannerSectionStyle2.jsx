@@ -39,18 +39,18 @@ export default function BannerSectionStyle2({ bgUrl, title, subTitle }) {
         </div>
       </div>
 
-
-      <Offcanvas direction={"end"} isOpen={sideNav}>
-        <OffcanvasHeader >OffCanvas</OffcanvasHeader>
+      <Offcanvas
+        direction={"end"}
+        isOpen={sideNav}
+        toggle={setSideNav(!sideNav)}
+      >
+        <OffcanvasHeader>OffCanvas</OffcanvasHeader>
         <OffcanvasBody>
-        TEST
-        <AppointmentForm1 />
-
-        <Button onClick={() => setSideNav(!sideNav)} >Close</Button>
-
+          TEST
+          <AppointmentForm1 />
+          <Button onClick={() => setSideNav(!sideNav)}>Close</Button>
         </OffcanvasBody>
       </Offcanvas>
-
     </>
   );
 }
