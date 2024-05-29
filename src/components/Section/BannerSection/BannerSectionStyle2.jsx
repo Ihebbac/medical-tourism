@@ -1,7 +1,8 @@
-import React from 'react';
+import React, { useState } from 'react';
 import parse from 'html-react-parser';
 
 export default function BannerSectionStyle2({ bgUrl, title, subTitle }) {
+  const [sideNav, setSideNav] = useState(false);
   return (
     <div className="container">
       <div
@@ -17,6 +18,19 @@ export default function BannerSectionStyle2({ bgUrl, title, subTitle }) {
             {parse(subTitle)}
           </p>
         </div>
+        <div >
+        <div className="col-lg-12">
+        <button className="cs_btn1 cs_style_1" onClick={() => setSideNav(!sideNav)}>
+          <span>Book Now !!</span>
+          <i>
+            <img src="/images/icons/arrow_white.svg" alt="Icon" />
+            <img src="/images/icons/arrow_white.svg" alt="Icon" />
+          </i>
+          
+        </button>
+      </div>
+      </div>
+      
       </div>
     </div>
   );

@@ -46,69 +46,69 @@ const departmentData = [
 ];
 const testimonialData = [
   {
-    text: "I recently had to bring my child to ProHealth for a minor injury, and I was so impressed with the care he received. The pediatrician was great with him and made him feel at ease, and the entire staff was kind and attentive.”",
+    text: "Traveling abroad for my surgery was the best decision I ever made. The medical staff were top-notch, and the care I received was unparalleled. I couldn't be happier with the results!”",
     ratingNumber: "5",
-    avatarImgUrl: "/images/home_1/avatar_2.png",
+    avatarImgUrl: "/images/7309703.jpg",
     avatarName: "PAULO HUBERT",
     avatarDesignation: "New York, USA",
   },
   {
-    text: "I recently had to bring my child to ProHealth for a minor injury, and I was so impressed with the care he received. The pediatrician was great with him and made him feel at ease, and the entire staff was kind and attentive.”",
+    text: "I was nervous about undergoing treatment in another country, but the team made me feel comfortable and safe. The entire process was smooth, and I am thrilled with my recovery.”",
     ratingNumber: "4.5",
-    avatarImgUrl: "/images/home_1/avatar_2.png",
+    avatarImgUrl: "/images/9334175.jpg",
     avatarName: "PAULO HUBERT",
     avatarDesignation: "New York, USA",
   },
   {
-    text: "I recently had to bring my child to ProHealth for a minor injury, and I was so impressed with the care he received. The pediatrician was great with him and made him feel at ease, and the entire staff was kind and attentive.”",
+    text: "The level of professionalism and attention to detail exceeded my expectations. I felt like I was in very good hands throughout my entire stay. Highly recommend!”",
     ratingNumber: "5",
-    avatarImgUrl: "/images/home_1/avatar_2.png",
+    avatarImgUrl: "/images/7309703.jpg",
     avatarName: "PAULO HUBERT",
     avatarDesignation: "New York, USA",
   },
   {
-    text: "I recently had to bring my child to ProHealth for a minor injury, and I was so impressed with the care he received. The pediatrician was great with him and made him feel at ease, and the entire staff was kind and attentive.”",
+    text: "I saved a lot of money without compromising on quality. The medical team was highly experienced, and the post-operative care was outstanding. I’m extremely satisfied!”",
     ratingNumber: "4.5",
-    avatarImgUrl: "/images/home_1/avatar_2.png",
-    avatarName: "PAULO HUBERT",
-    avatarDesignation: "New York, USA",
+    avatarImgUrl: "/images/9334175.jpg",
+    avatarName: "Carlos T.",
+    avatarDesignation: "São Paulo, Brazil",
   },
 ];
 const workingProcessData = [
   {
-    title: "Book Appointment",
+    title: "Care Request Submission",
     subTitle:
-      "You can book an appointment with us by <br />calling our office, filling out an online form, or <br />using our mobile app.",
-    iconUrl: "/images/home_2/wording_process_icon_1.svg",
-    number: "01",
+      "Send your care request",
+    iconUrl: "/images/home_2/numero-1 (1).png",
+    // number: "01",
   },
   {
-    title: "Visit Our Facility",
+    title: "Finding the Best Doctors",
     subTitle:
-      "On the day of your appointment, come to our <br />facility at the designated time. Our staff will greet <br />you and guide you through the check-in process.",
-    iconUrl: "/images/home_2/wording_process_icon_2.svg",
-    number: "02",
+      "Our assistants are looking for <br /> the best doctors for you",
+    iconUrl: "/images/home_2/numero-2.png",
+    // number: "02",
   },
   {
-    title: "Meet with Our Healthcare <br />Professionals",
+    title: "Care Plan Study  <br />and Best Quote",
     subTitle:
-      "You will meet with one of our healthcare <br />professionals who will conduct a thorough <br />examination and provide a diagnosis or <br />treatment plan.",
-    iconUrl: "/images/home_2/wording_process_icon_3.svg",
-    number: "03",
+      "Care plan study with the best quote <br />",
+    iconUrl: "/images/home_2/numero-3.png",
+    // number: "03",
   },
   {
-    title: "Follow-up Care",
+    title: "Appointment and Travel <br /> Arrangement",
     subTitle:
-      "We will schedule any necessary follow-up <br />appointments, tests, or procedures to ensure <br />that you receive the best possible care.",
-    iconUrl: "/images/home_2/wording_process_icon_4.svg",
-    number: "04",
+      "Appointment scheduling and travel  <br />arrangement",
+    iconUrl: "/images/home_2/numero-4.png",
+    // number: "04",
   },
   {
-    title: "Insurance and Billing",
+    title: "Continuous Assistance Until Return",
     subTitle:
-      "We accept most major insurance plans and <br />our billing department will work with you to <br />ensure that you understand your coverage <br />and any out-of-pocket expenses.",
-    iconUrl: "/images/home_2/wording_process_icon_5.svg",
-    number: "05",
+      "Assistance ensured until your return to <br /> <center><b>your country</b></center>",
+    iconUrl: "/images/home_2/numero-5.png",
+    // number: "05",
   },
 ];
 const blogData = [
@@ -214,9 +214,9 @@ export default function HomeStyle6() {
         // btnText="Pro Health"
         btnUrl="/"
         funfactList={[
-          { number: "20+", title: "Years of experience" },
-          { number: "95%", title: "Patient satisfaction rating" },
-          { number: "5000+", title: "Patients served annually" },
+          { number: "8+", title: "Years of experience" },
+          { number: "97%", title: "Patient satisfaction rating" },
+          { number: "2300+", title: "Patients served annually" },
           { number: "10+", title: "Healthcare providers on staff" },
         ]}
       />
@@ -229,14 +229,14 @@ export default function HomeStyle6() {
           imgUrl="/images//home_2/about.jpeg"
         />
       </Section> */}
-      <Section bottomMd={190} bottomLg={145} bottomXl={105}>
+      {/* <Section bottomMd={190} bottomLg={145} bottomXl={105}>
         <DepartmentSectionStyle4 sectionTitle="For Your Health" sectionTitleUp="OUR DEPARTMENTS" data={departmentData} />
-      </Section>
+      </Section> */}
       <Section bottomMd={190} bottomLg={145} bottomXl={105}>
-        <DepartmentSection sectionTitle="Departments" bgUrl="images/home_1/department_bg.svg" data={departmentData} />
+        <DepartmentSection sectionTitle="For Your Health" sectionTitleUp="OUR DEPARTMENTS" bgUrl="images/home_1/department_bg.svg" data={departmentData} />
       </Section>
       <Section topMd={190} topLg={145} topXl={105}>
-        <BlogSectionStyle3 sectionTitle="Nos clinique" sectionTitleUp="" sectionTitleDown="" sectionSubTitle="" data={blogData} />
+        <BlogSectionStyle3 sectionTitle="  Hospitals And Clinique" sectionTitleUp="Our" sectionTitleDown="" sectionSubTitle="" data={blogData} />
       </Section>
 
       <Section
@@ -267,8 +267,8 @@ export default function HomeStyle6() {
       </Section>
       <Section>
         <BannerSectionStyle2
-          bgUrl="/images/home_2/cta_bg.jpeg"
-          title="Don’t Let Your Health Take a Backseat!"
+          bgUrl="/images/home_2/logo_make_11_06_2023_171.jpg"
+          title="Don’t Let Your Health Take a <span>Backseat </span>! "
           subTitle="Schedule an appointment with one of our <br />
           experienced medical professionals today!"
         />
